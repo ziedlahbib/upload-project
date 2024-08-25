@@ -1,14 +1,15 @@
-.card{
+.card {
     width: 40vh;
     height: 40vw;
-    background-color:#FFFFFF ;
-    border-radius: 10px;  
+    background-color: #FFFFFF;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.title{
+
+.title {
     height: 10%;
     width: auto;
     font-size: 18px;
@@ -16,9 +17,20 @@
     line-height: 27px;
     letter-spacing: -3.5%;
 }
-.remarque{}
-.draganddropcontainer{}
-.button{}
+
+.remarque {
+    height: 10%;
+    width: auto;
+    font-size: 10px;
+    color: #828282;
+    line-height: 15px;
+    letter-spacing: -3.5%;
+}
+
+.draganddropcontainer {}
+
+.button {}
+
 /////////////////////////
 .poppins-thin {
     font-family: "Poppins", sans-serif;
