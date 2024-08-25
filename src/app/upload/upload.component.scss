@@ -48,17 +48,28 @@
 }
 .button {
     background-color: #2F80ED;
+    width: auto;
     border-radius: 8px;
     color: white;
-    height: 6%;
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5%;
+    text-align: center;
+    padding: 5px;
+}
+/////////////////
+@media(max-width:768px){
+    .card{
+        width: 90vw;
+    }
 }
 
 /////////////////////////
+.noto-sans {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
